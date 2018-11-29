@@ -1,0 +1,11 @@
+.testimonials-content {
+  max-width: 640px;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+}
+
+.slide {
+  width: 640px;
+  display: none;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One French Journey</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/intro.css">
+  <link rel="stylesheet" href="styles/grid.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/testimonials.css">
+  <link rel="stylesheet" href="styles/text.css">
+  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="styles/button.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="header">
+      <div class="header-logo">
+        <h2 class="text-logo text-centre">OneFrenchJourney</h2>
+        <h2 class="text-logo-small text-centre">learning french is fun</h2>
+      </div>
+      <div class="header-nav-menu">
+        <ul>
+          <li class="header-nav-button">
+          <a class="header-nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="header-nav-button">
+          <a class="header-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="header-nav-button">
+          <a class="header-nav-link" href="#take-a-class">Take a class</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="intro text-centre" id="intro">
+    <h1 class="text-large">Do you want to improve your French ?</h1>
+    <h2 class="text-medium">I can help you...</h2>
+    <h2 class="text-medium">Begin your <a class="text-logo" href="#">OneFrenchJourney</a></h2>
+    <small class="text-small">*The first 10 students get it at 50% off</small>
+  </div>
+
+  <div class="container">
+    <div class="column-1-4">
+      <div class="buffer-large">
+        <img class="features-icon" src="images/book.png" alt="[Book icon]">
+        <p class="text-medium">Grammar</p>
+        <p class="text-medium">Vocabulary</p>
+        <p class="text-medium">Pronunciation</p>
+      </div>
+    </div>
+    <div class="column-1-4">
+      <div class="buffer-large">
+        <img class="features-icon" src="images/test.png" alt="[Test icon]">
+        <p class="text-medium">Exercices</p>
+        <p class="text-medium">and</p>
+        <p class="text-medium">Mini quizzes</p>
+      </div>
+    </div>
+    <div class="column-1-4">
+      <div class="buffer-large">
+        <img class="features-icon" src="images/podcast.png" alt="[Podcast icon]">
+        <p class="text-medium">Podcasts</p>
+      </div>
+    </div>
+    <div class="column-1-4">
+      <div class="buffer-large">
+        <img class="features-icon" src="images/classes.png" alt="[Classes icon]">
+        <p class="text-medium">Face to Face</p>
+        <p class="text-medium">on&ndash;line</p>
+        <p class="text-medium">classes</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="block-grey">
+    <div class="container">
+      <div class="member-image">
+        <img class="about-icon" src="images/teacher.png" alt="[Teacher icon]"/>
+      </div>
+      <div class="member-details">
+        <h2 class="text-medium text-bold buffer" id="about-me">About me</h2>
+        <p class="text-medium">Hi there! My name is Anaïs. I'm <em style="text-decoration: line-through"> a french teacher</em> <em style="color: #546536; font-weight: bold">an Unusual french teacher</em>.</p>
+        <p class="text-medium">Creating is a real imperative for me. My texts, podcasts, exercises are original lessons, inspired by the french ways of speaking and behaving.</p>
+        <p class="text-medium">By combining my two great passions &ndash; writing fiction for both adults and children, and teaching French to non &ndash; natives, the concept of <em style="color: #546536">onefrenchjourney.com</em> was born!</p>
+        <div class="social">
+          <p class="text-medium">*find more about me</p>
+          <img class="social-icon" src="images/facebook.png" alt="fb" />
+          <img class="social-icon" src="images/linkedin.png" alt="li" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="buffer-medium">
+    <div class="container">
+      <div class="member-image">
+        <img class="testimonials-icon" src="images/like.jpeg" alt="[Like icon]"/>
+      </div>
+      <h2 class="text-medium text-bold buffer">Testimonials by my students</h2>
+      <div class="testimonials-content" id="testimonials">
+        <img class="slide" src="slides/slide1.png" alt="[Slide 1]">
+        <img class="slide" src="slides/slide2.png" alt="[Slide 2]">
+        <img class="slide" src="slides/slide3.png" alt="[Slide 3]">
+        <img class="slide" src="slides/slide4.png" alt="[Slide 4]">
+        <img class="slide" src="slides/slide5.png" alt="[Slide 5]">
+        <img class="slide" src="slides/slide6.png" alt="[Slide 6]">
+        <img class="slide" src="slides/slide7.png" alt="[Slide 7]">
+      </div>
+      <div class="testimonials-center">
+        <div class="text-centre">
+          <button class="slide-button button-green" onclick="plusDivs(-1)">❮ Prev</button>
+          <button class="slide-button button-green" onclick="plusDivs(1)">Next ❯</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="prices block-grey" id="take-a-class">
+    <div class="container">
+      <img class="prices-icon" src="images/marmite.png" alt="[Marmite icon]">
+      <h2 class="text-marmite text-centre">"Les belles paroles ne font pas bouillir la marmite".</h2>
+      <h2 class="text-small text-right">(french proverb)</h2>
+      <div class="buffer">
+        <p class="text-marmite text-centre">Book a class!</p>
+      </div>
+    </div>
+
+  <div class="fares text-centre">
+    <div class="container buffer">
+      <div class="column-1-3">
+        <div class="fare text-center">
+            <h2 class="text-medium">1 session</h2>
+          <div class="text-medium">
+            25&nbsp;€
+          </div>
+          <div class="fare-order">
+            <a class="button button-blue" href="#">Book</a>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="fare fare_featured text-center">
+          <div class="fare-head">
+            <h2 class="text-medium">5 sessions</h2>
+          </div>
+          <div class="text-medium">
+            100&nbsp;€
+          </div>
+          <div class="fare-order">
+            <a class="button button-blue" href="#">Book</a>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="fare text-center">
+          <div class="fare-head">
+            <h2 class="text-medium">10 sessions</h2>
+          </div>
+          <div class="text-medium">
+            175&nbsp;€
+          </div>
+          <div class="fare-order">
+            <a class="button button-blue" href="#">Book</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="buffer-medium text-centre">
+    <div class="container word-spacing">
+        <p class="text-medium">Your <em class="text-logo text-centre">OneFrenchJourney</em> begins</p>
+        <div class="buffer">
+          <a class="button button-green" href="#">HERE</a>
+        </div>
+      </div>
+  </div>
+
+</div>
+<script type="text/javascript" charset="utf-8" src="scripts/slide.js"></script>
+</body>
+</html>

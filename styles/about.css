@@ -1,0 +1,39 @@
+.block-grey {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f1f5f8;
+}
+
+.social {
+  padding-top: 10px;
+  float: right;
+}
+
+.testimonials-section {
+  padding-top: 20px;
+}
+
+.buffer {
+  padding-top: 40px;
+}
+
+.buffer-medium {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.buffer-large {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.fare {
+  background: #E0E0E0;
+  border-bottom: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}

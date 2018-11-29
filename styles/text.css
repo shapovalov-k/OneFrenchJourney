@@ -1,0 +1,66 @@
+.wrapper {
+  font-family: 'Harmattan', sans-serif;
+  font-size: 16px;
+}
+
+.text-logo {
+  font-family: 'Pacifico', cursive;
+  color: #546536;
+  text-decoration: none;
+  /* color: #ff7f50; */
+  /* color: #EE82EE; */
+  /* color: #7d161a; */
+/* coral
+violet
+cherry
+grass */
+}
+
+.text-large {
+  font-size: 48px;
+  color: #2f3535;
+}
+
+.text-medium{
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 50px;
+  padding-bottom: 10px;
+  color: #2f3535;
+}
+
+.text-small{
+  font-size: 20px;
+  font-style: italic;
+  line-height: 100%;
+}
+
+.text-logo-small {
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: normal;
+  letter-spacing: 2px;
+  opacity: 0.95;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-marmite {
+  font-size: 40px;
+  font-style: italic;
+  color: #2f3535;
+}
+
+.word-spacing {
+   word-spacing: 5px;
+}

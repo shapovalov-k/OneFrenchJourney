@@ -1,0 +1,9 @@
+.intro {
+  background-image: url("../images/intro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: center top;
+  height: 450px;
+  padding-top: 180px;
+}

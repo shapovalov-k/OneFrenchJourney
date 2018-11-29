@@ -1,0 +1,38 @@
+.features-icon {
+   height: 60px;
+   width: 60px;
+   padding-bottom: 20px;
+}
+
+.about-icon {
+  float: left;
+  height: 80px;
+  width: 80px;
+  padding-right: 15px;
+}
+
+.social-icon {
+  height: 30px;
+  width: 30px;
+  float: right;
+  padding: 5px;
+}
+
+.testimonials-icon {
+  height: 100px;
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.prices-icon {
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+.action-icon {
+  height: 80px;
+  width: 80px;
+  float: right;
+}
