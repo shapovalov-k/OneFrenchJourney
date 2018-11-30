@@ -9,11 +9,14 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/intro.css">
   <link rel="stylesheet" href="styles/grid.css">
-  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/testimonials.css">
   <link rel="stylesheet" href="styles/text.css">
   <link rel="stylesheet" href="styles/icons.css">
   <link rel="stylesheet" href="styles/button.css">
+
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="parallax.js-1.5.0/parallax.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +24,7 @@
   <div class="header">
       <div class="header-logo">
         <h2 class="text-logo text-centre">OneFrenchJourney</h2>
-        <h2 class="text-logo-small text-centre">learning french is fun</h2>
+        <p class="text-logo-small text-centre">learning french is fun</p>
       </div>
       <div class="header-nav-menu">
         <ul>
@@ -38,10 +41,10 @@
       </div>
   </div>
 
-  <div class="intro text-centre" id="intro">
+  <div class="intro text-centre" id="intro" data-parallax="scroll" data-image-src="images/intro.jpg">
     <h1 class="text-large">Do you want to improve your French ?</h1>
-    <h2 class="text-medium">I can help you...</h2>
-    <h2 class="text-medium">Begin your <a class="text-logo" href="#">OneFrenchJourney</a></h2>
+    <h2 class="text-medium-logo">I can help you...</h2>
+    <p class="text-medium-logo">Begin your <a class="text-logo" href="#">OneFrenchJourney</a></p>
     <small class="text-small">*The first 10 students get it at 50% off</small>
   </div>
 
@@ -124,7 +127,7 @@
   <div class="prices block-grey" id="take-a-class">
     <div class="container">
       <img class="prices-icon" src="images/marmite.png" alt="[Marmite icon]">
-      <h2 class="text-marmite text-centre">"Les belles paroles ne font pas bouillir la marmite".</h2>
+      <h2 class="text-marmite text-centre">« Les belles paroles ne font pas bouillir la marmite »</h2>
       <h2 class="text-small text-right">(french proverb)</h2>
       <div class="buffer">
         <p class="text-marmite text-centre">Book a class!</p>

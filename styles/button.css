@@ -18,11 +18,26 @@
 }
 
 .button-green {
-  background: #546536;
+  background: #2E8B57;
   color: #f1f5f8;
 }
 
 .button-blue {
   background: #59a3fc;
   color: #fff;
+}
+
+.button-blue:hover {
+  background: #2991fc;
+  transition: all ease .3s;
+}
+
+.button-green:hover {
+  background: #546536;
+  transition: all ease .3s;
+}
+
+.slide-button:hover {
+  background: #546536;
+  transition: all ease .3s;
 }
