@@ -31,5 +31,10 @@
   text-decoration: none;
   color: #313131;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.header-nav-link:hover {
+  color: #B22222;
+  transition: all ease .3s;
 }
